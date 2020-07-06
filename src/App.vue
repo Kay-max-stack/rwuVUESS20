@@ -1,8 +1,21 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+<div>
+    <div id="app">
+      <div id="nav">
+        <b-row id="container">
+         <b-col> 
+            <img id="picRWU" alt="Vue logo" src="./assets/rwu.png">
+            <img id="pic" alt="Vue logo" src="./assets/logo.png">
+          </b-col>
+          <b-col class="align-self-sm-end">
+            <router-link to="/">Home</router-link> |
+            <router-link to="/jokes">Jokes</router-link> |
+            <router-link to="/beer">Beer</router-link> |
+            <router-link to="/about">About</router-link>
+          </b-col>
+        </b-row>
+         <hr>
+      </div>
     </div>
     <router-view/>
   </div>
@@ -16,17 +29,20 @@
   text-align: center;
   color: #2c3e50;
 }
-
 #nav {
   padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  color: #2c3e50;
 }
+#container {
+  padding-left: 50px;
+}
+#pic {
+  margin-right: 50px;
+  width: 100px;
+}
+#picRWU {
+  margin-right: 50px;
+  width: 300px;
+}
+
 </style>
