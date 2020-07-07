@@ -1,4 +1,5 @@
 
+# Webprogrammierung Abschlussprojekt 
 
 URL zu Ihrer Anwendung in der Cloud
 https://friendly-hermann-208bfc.netlify.app
@@ -29,10 +30,8 @@ Die selbe Herangehensweise verwenden wir auch bei der Beer View, wobei der initi
 als Listenelemente dargestellt werden. Beim Auswählen durch klicken wird der Name eingelesen und der API Anfrage mitgegeben 
 sodass das Ergebnis in einer BeerCardComp angezeigt wird.
 
+
 Beschreibung der notwendigen Schritte, um die Anwendung lokal zu starten
-
-
-# Webprogrammierung Abschlussprojekt 
 
 # Schritte zum installieren:
 
@@ -40,9 +39,9 @@ Beschreibung der notwendigen Schritte, um die Anwendung lokal zu starten
 
 ins verzeichnis wechseln
 npm install bootstrap
+npm install axios
 npm i
 npm run serve 
-
 
 
 ### Compiles and minifies for production
