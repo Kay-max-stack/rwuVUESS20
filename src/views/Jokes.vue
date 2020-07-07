@@ -20,6 +20,13 @@
 <script>
 import Axios from 'axios';
 
+/**
+ * 
+ * b-row sowie b-col wurden aus Bootstrap verwendet
+ * Card sowie Title Comp wurden selbst geschrieben
+ * css class wurde aus Bootstrap verwendet
+ */
+
 export default {
   name: 'Jokes',
   data() {

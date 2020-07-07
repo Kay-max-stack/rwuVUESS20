@@ -16,7 +16,7 @@
 
 <script>
 import Axios from 'axios';
-
+/**b-dropdowm sowie b-row und b-container aus Bootstrap */
 export default {
   name: 'Beer',
   data: function() {

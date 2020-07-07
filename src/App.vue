@@ -21,6 +21,16 @@
   </div>
 </template>
 
+<script>
+/*
+  #app sowie #nav wurden beim genrerien der app durch vue create XX  erzeugt
+
+  Anstelle der <router-view/> werden die im index.js importierten Components gerendert
+  b-row sowie b-col wurden aus Bootstrap verwendet
+  Router Links wurden beim erzeugen des Vue Routers erzeugt
+*/
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

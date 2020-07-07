@@ -26,7 +26,7 @@ Vue.use(VueRouter)
     component: () => import('../views/Beer.vue')
   }
 ]
-
+//Wurde initial beim Erzeugen des Routers generiert
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,

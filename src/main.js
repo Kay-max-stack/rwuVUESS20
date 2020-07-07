@@ -7,7 +7,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 
 
-//Komponenten Global registrieren
+//Komponenten Global registrieren um sie überall im Project verwenden zu können
 import CardComp from './components/CardComp.vue';
 import TitleComp from './components/TitleComp.vue';
 import BeerCardComp from './components/BeerCardComp.vue';

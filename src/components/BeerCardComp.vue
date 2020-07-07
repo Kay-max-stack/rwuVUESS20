@@ -11,6 +11,8 @@
 </template>
 
 <script>
+/**b-card Elemente aus Bootstrap */
+ 
   export default {
     name: 'CardComp',
     props: {
