@@ -12,11 +12,13 @@ import CardComp from './components/CardComp.vue';
 import TitleComp from './components/TitleComp.vue';
 import BeerCardComp from './components/BeerCardComp.vue';
 import DropdownComp from './components/DropdownComp.vue';
+import HomeComp from './components/HomeComp.vue';
 
 Vue.component('CardComp', CardComp)
 Vue.component('TitleComp',TitleComp)
 Vue.component('BeerCardComp',BeerCardComp)
 Vue.component('DropdownComp',DropdownComp)
+Vue.component('HomeComp',HomeComp)
 Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false

@@ -24,6 +24,7 @@ export default {
   name: 'Jokes',
   data() {
     return {
+      jokeTitle: 'Jokes',
       jokes: [],
       Question: 'Question',
       Answer: 'Punchline' 

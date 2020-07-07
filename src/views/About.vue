@@ -12,18 +12,30 @@
      <img id="pic" alt="Vue logo" src="../assets/bootstrap.png">
      </a>
   </b-row>
-  </div>
+  <div id="aboutDevs">
+  <!--a> using popovers from bootstrap 4 as explained on https://getbootstrap.com/docs/4.0/components/popovers/</a--> 
+    <v-tooltip bottom>
+    <img class="rounded-circle" slot="activator" id="devImg" src="../assets/Sebastian.jpg" data-toggle="popover" title="Sebastian Jäger">
+    <span>Sebastian</span>
+    </v-tooltip>
+    <img class="rounded-circle" id="devImg" src="../assets/Sebastian.jpg" data-toggle="popover" title="Kay Tobias Konrad">
+
+</div>
+  </div>  
+  
 </template>
 
 <script>
+
 export default {
   name: 'About',
   data: function() {
     return {
-      myText: 'Das ist die About Page',
-      myText2: 'Test',
-      aboutTitle: 'About'
-    }
+      aboutTitle: 'About',
+      name: 'Sebastian Jaeger', 
+      MatrikelNr: '30164',
+    };
+    
   },
 }
 </script>
@@ -37,5 +49,12 @@ export default {
 }
 #pic {
   width: 200px;
+}
+#aboutDevs {
+  text-align: center;
+}
+#devImg {
+  margin-top: 7%;
+  width: 10%;
 }
 </style>
