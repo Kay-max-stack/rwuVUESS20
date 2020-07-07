@@ -12,18 +12,17 @@
      <img id="pic" alt="Vue logo" src="../assets/bootstrap.png">
      </a>
   </b-row>
-  </div>
+  </div>   
 </template>
-
 <script>
+
 export default {
   name: 'About',
   data: function() {
     return {
-      myText: 'Das ist die About Page',
-      myText2: 'Test',
-      aboutTitle: 'About'
-    }
+      aboutTitle: 'About',
+    };
+    
   },
 }
 </script>

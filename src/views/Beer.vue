@@ -5,7 +5,7 @@
     </div>
     <b-row>
       <div>
-        <b-dropdown text="Menu">
+        <b-dropdown text="Menu" dropright>
           <DropdownComp @click.native="clickMenu"  v-for="(beer, k) in beers" :key="k" :beerText="beer.name"></DropdownComp>
         </b-dropdown>
       </div>
