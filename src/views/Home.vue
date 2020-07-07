@@ -26,7 +26,7 @@ export default {
       homeTitle: 'Erstellt von Kay Tobias Conrad & Sebastian Jäger',
       jokeDescription: 'Hier kann man mehr oder minder lustige Witze lesen und sich per Klick auf den Button neue Witze ausgeben lassen! Einer flacher als der andere!',
       beerDescription: 'Hier kann man aus einer Liste aus Bieren wählen und sich für jedes einzelne Bier einige Zusatzinfos anschauen! Die Zusatzinfos sind der Biername, Tips vom Braumeister und eine Geschmacksbeschreibung des Bieres',
-      aboutDescription: 'In der About Seite findet man weiterführende Links über die Frameworks die Hochschule und wer die Entwickler dieser Seite sind!',
+      aboutDescription: 'In der About Seite findet man weiterführende Links über die Frameworks die Hochschule',
       show1: false,
       show2: false,
       show3: false,
@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
   #overview {
     text-align: center;
     padding-left: 33.3%;
