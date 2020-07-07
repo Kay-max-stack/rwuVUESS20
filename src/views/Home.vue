@@ -4,13 +4,13 @@
     <section id="overview">
     <div class="jumbotron w-50 p-3 align-middle" style="background-color: white;" >
       <h1 @click="showJoke()" class="display-4">Jokes</h1>
-        <HomeComp v-if="show1" class="lead" :msg="jokeDescription"> </HomeComp>
+        <TitleComp v-if="show1" class="lead" :msg="jokeDescription"> </TitleComp>
       <hr class="my-4">
       <h1 @click="showBeer()"  class="display-4">Beers</h1>
-        <HomeComp v-if="show2" class="lead" :msg="beerDescription"> </HomeComp>
+        <TitleComp v-if="show2" class="lead" :msg="beerDescription"> </TitleComp>
       <hr class="my-4">
       <h1 @click="showAbout()"  class="display-4">About</h1>
-        <HomeComp v-if="show3" class="lead" :msg="aboutDescription"> </HomeComp>
+        <TitleComp v-if="show3" class="lead" :msg="aboutDescription"> </TitleComp>
       <hr class="my-4">
     </div>
     </section>
